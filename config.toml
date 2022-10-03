@@ -29,7 +29,7 @@ navbar_items = [
   { code = "en", nav_items = [
     { url = "$BASE_URL/", name = "Home" },
     { url = "$BASE_URL/research", name = "Research" },
-    { url = "$BASE_URL/resume/Lafferty_Michael_CV_Aug2022_web.pdf", name = "Resume" },
+    { url = "$BASE_URL/resume/Lafferty_Michael_CV_Oct2022_web.pdf", name = "Resume" },
     #{ url = "$BASE_URL/tags", name = "Tags" },
     #{ url = "$BASE_URL/categories", name = "Categories" },
   ]},
