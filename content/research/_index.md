@@ -1,4 +1,4 @@
 +++
-title = "List of recent projects."
+#title = "List of recent projects."
 sort_by = "date"
 +++
