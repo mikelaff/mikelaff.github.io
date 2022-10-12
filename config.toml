@@ -50,7 +50,7 @@ avatar = "/images/avatar.png"
 
 # Social links
 [extra.social]
-#email = "<email_id>"
+email = "lafferty.michael@gmail.com"
 #facebook = "<facebook_username>"
 github = "mikelaff"
 #gitlab = "<gitlab_username>"

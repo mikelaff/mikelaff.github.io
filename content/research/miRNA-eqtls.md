@@ -1,7 +1,7 @@
 +++
 title = "MicroRNA eQTLs in the Developing Human Neocortex"
 weight = 10
-date = 2022-05-01
+date = 2022-10-01
 description = "Known and novel miRNA expression across 212 individuals yielded 85 local miRNA-eQTLs"
 +++
 
