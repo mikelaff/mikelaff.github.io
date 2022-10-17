@@ -56,7 +56,7 @@ This effect is seen across the genome, the same for variants on any chromosome.
   <img src="/images/imputation/variants_filtered_by_chr.png" alt="Filtered variants by chromosome" width="700"/>
 </p>
 
-How could this be? It is possible that the TOPMed reference panel has enough genetic diversity to define more haplotypes at any give sequence in the genome. In this toy example, 1000 Genomes may have two haplotypes for the same genomic location that TOPMed defines three haplotypes. Some of the samples that were imputed to the 1000 Genomes rare haplotype may be imputed with greater accuracy to even rarer haplotypes in the TOPMed reference panel.  
+How could this be? It is possible that the TOPMed reference panel has enough genetic diversity to define more haplotypes at any give sequence in the genome. In this toy example, 1000 Genomes may have two haplotypes for the same genomic location that TOPMed defines three haplotypes. Some of the samples that were imputed to the 1000 Genomes rare haplotype may be imputed with greater accuracy to even rarer haplotypes in the TOPMed reference panel..  
 
 <p align="center">
   <img src="/images/imputation/haplotypes.png" alt="Haplotypes" width="600"/>
