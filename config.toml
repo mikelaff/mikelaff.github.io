@@ -46,7 +46,7 @@ webmanifest = "/icons/site.webmanifest"
 # Author details
 [extra.author]
 name = "Mike Lafferty"
-avatar = "/images/avatar.png"
+avatar = "/images/avatar.jpg"
 
 # Social links
 [extra.social]
