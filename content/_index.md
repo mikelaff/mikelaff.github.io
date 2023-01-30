@@ -10,7 +10,7 @@ name = "Mike"
 
 I completed my PhD in <b>Bioinformatics and Computational Biology</b> from the University of North Carolina, Chapel Hill in May 2022.  
 
-I am currently working in the <a href="https://www.steinlab.org" target="_blank">Stein Lab</a> at UNC, Chapel Hill. My research is focused on understanding the genetic regulation of miRNA, mRNA, and complex traits.  
+I am currently working in the <a href="https://www.steinlab.org" target="_blank">Stein Lab</a> at UNC, Chapel Hill. My research is focused on understanding the genetic regulation of miRNA, mRNA, and complex traits. My latest research is looking at the reproducibility of human cortical organoid differentiations through single-cell RNA-sequencing.    
 
 </center>
 
