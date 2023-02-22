@@ -13,11 +13,11 @@ To understand the mechanisms by which miR-4707-3p may alter brain size, a lentiv
 
 ## Manuscript
 
-See the manuscript on <a href="https://www.biorxiv.org/content/10.1101/2022.03.31.486585v1" target="_blank">bioRxiv</a>, currently under review at eLife.  
+This research is currently published at <a href="https://doi.org/10.7554/eLife.79488" target="_blank">eLife</a>.  
 
 ## Code
 
-Code repository for this manuscript is hosted on <a href="https://bitbucket.org/steinlabunc/mirna-eqtl/src/master/" target="_blank">bitbucket</a>.  
+Code repository for this manuscript is hosted on <a href="https://github.com/mikelaff/mirna-eqtl-manuscript" target="_blank">GitHub</a>.  
 
 ## Poster
 
