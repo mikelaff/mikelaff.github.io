@@ -1,6 +1,6 @@
 # The URL the site will be built for
-base_url = "https://mikelaff.net"
-title = "PhD in Bioinformatics"
+base_url = "https://mikelaff.bio"
+title = "Bioinformatician | Multi-omic Data Analysis"
 
 #theme = "blow"
 theme = "DeepThought"
@@ -51,14 +51,14 @@ avatar = "/images/avatar.jpg"
 
 # Social links
 [extra.social]
-email = "lafferty.michael@gmail.com"
+email = "mike@mikelaff.bio"
 #facebook = "<facebook_username>"
 github = "mikelaff"
 #gitlab = "<gitlab_username>"
 #keybase = "<keybase_username>"
 linkedin = "mikelaff"
 #stackoverflow = "<stackoverflow_userid>"
-twitter = "mikelaff"
+#twitter = "mikelaff"
 #instagram = "<instagram_username>"
 #behance = "<behance_username>"
 google_scholar = "pvAZYo4AAAAJ"

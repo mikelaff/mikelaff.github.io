@@ -1,6 +1,6 @@
 +++
 title = "Mike Lafferty"
-description = "PhD in Bioinformatics"
+description = "Bioinformatician | Multi-omic Data Analysis"
 
 [extra.author]
 name = "Mike"
@@ -8,9 +8,11 @@ name = "Mike"
 
 <center>
 
-I completed my PhD in <b>Bioinformatics and Computational Biology</b> from the University of North Carolina, Chapel Hill in May 2022.  
+I completed my PhD in <b>Bioinformatics and Computational Biology</b> from the University of North Carolina, Chapel Hill working with <a href="https://www.steinlab.org" target="_blank">Dr. Jason Stein</a>.  
 
-I am currently working at <a href="https://www.watershed.ai" target="_blank">Watershed Bio</a> in Cambridge, MA.    
+I am currently working as a <b>Senior Bioinformatics Scientist</b> at <a href="https://www.datapol.bio" target="_blank">dataPol Solutions</a> in Cambridge, MA.  
+
+I am also a freelance consultant and bioinformatician. Email <a href= "mailto: info@mikelaff.bio">info@mikelaff.bio</a> to inquire about a partnership!  
 
 </center>
 
