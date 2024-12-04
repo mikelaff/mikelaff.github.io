@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;safari-pinned-tab.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;favicon-16x16.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;favicon-32x32.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" integrity="sha256-rTpdO0HXBCNpreAHcu6tB2Ppg515Vo+5GtYSsnNLz+8=" crossorigin="anonymous">
+  <link href="https://mikelaff.bio/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Bioinformatician | Multi-omic Data Analysis | 1000 Genomes vs TOPMed Imputation in Samples of Diverse Ancestry
+
+  </title>
+
+  
+  
+  
+
+  
+</head>
+
+<body class="has-background-white">
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;mikelaff.bio">Bioinformatician | Multi-omic Data Analysis</a>
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-centered">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;mikelaff.bio&#x2F;">
+            Home
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;mikelaff.bio&#x2F;research">
+            Research
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;mikelaff.bio&#x2F;resume&#x2F;Lafferty_Michael_WEB_RESUME.pdf">
+            Resume
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;mikelaff.bio&#x2F;resume&#x2F;Lafferty_Michael_WEB_CV.pdf">
+            CV
+          </a>
+          
+          
+          
+          <a class="navbar-item" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>
+          <a class="navbar-item" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            1000 Genomes vs TOPMed Imputation in Samples of Diverse Ancestry
+          </h1>
+          <p class="subtitle">The hidden downside of better imputation results</p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>Mike Lafferty published on</span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span><time datetime="2022-10-10">October 10, 2022</time></span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>5 min,</span>
+  <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>852 words</span>
+</span>
+
+            </div>
+            <div class="column">
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p>The Stein Lab works with a unique set of human primary cell lines and donated tissue samples from a large set of donors. Each of these donors have been genotyped using standard genotyping platforms yielding over 1.7 million single nucleotide polymorphisms (SNPs). Overlapping these unique samples with individual genotypes from the HapMap3 project shows the diverse ancestry of this dataset.</p>
+<p align="center">
+  <img src="/images/imputation/sample_mds.png" alt="HapMap3 MDS Plot" width="500"/>
+</p>
+<p>Before doing a genetic association analysis, it is common to increase the number of SNPs one wishes to test by first imputing the genotypes that are not measured by the genotyping arrays. In order to do this, we need a reference panel of genomes (or haplotypes) from a large set of individuals with similar ancestry to the samples we wish to impute. Since our samples are from a diverse ancestry, we need a reference panel which contains many representative populations. Two commonly used reference panels are the <a href="https://www.genome.gov/27528684/1000-genomes-project" target="_blank">1000 Genomes</a> panel and the <a href="https://topmed.nhlbi.nih.gov" target="_blank">NHLBI Trans-Omics for Precision Medicine (TOPMed)</a> panel.</p>
+<ul>
+<li>1000 Genomes Phase 3 Version 5
+<ul>
+<li>5,008 haplotypes</li>
+<li>Diverse ancestry</li>
+</ul>
+</li>
+<li>TOPMed Freeze 5
+<ul>
+<li>125,568 haplotypes</li>
+<li>Diverse ancestry</li>
+</ul>
+</li>
+</ul>
+<p>Both the 1000 Genomes and TOPMed reference panels contain individuals from a diverse ancestry. However, because the TOPMed reference panel contains significantly more individuals, we expect TOPMed to better impute diverse ancestry genotypes.</p>
+<p>In this analysis, we used the Michigan Imputation Server to impute the genotypes of 326 diverse ancestry samples by starting with 1.7 million genotyped SNPs. At each imputed variant, the imputation quality was assessed with the <a href="https://genome.sph.umich.edu/wiki/Minimac3_Info_File" target="_blank">r<sup>2</sup> statistic</a> (R2 or Rsq in the following graphs). An r<sup>2</sup>&gt;0.3 was considered sufficient for use in downstream association analyses. At first glance, TOPMed yielded more high quality imputed variants than 1000 Genomes:</p>
+<ul>
+<li>1000 Genomes
+<ul>
+<li>49 million imputed variants</li>
+<li>28 million with an r<sup>2</sup>&gt;0.3</li>
+</ul>
+</li>
+<li>TOPMed
+<ul>
+<li>239 million imputed variants</li>
+<li>32 million with an r<sup>2</sup>&gt;0.3</li>
+</ul>
+</li>
+</ul>
+<p>Furthermore, when we look at variants across a range of minor allele frequencies (MAF), we see that TOPMed consistently yields better imputation quality than 1000 Genomes, more so for variants with an r<sup>2</sup>&gt;0.3.</p>
+<p align="center">
+  <img src="/images/imputation/imputed_snps.png" alt="Imputation at various MAF" width="350"/>
+  <img src="/images/imputation/imputed_snps_high.png" alt="Imputation at various MAF, high R2" width="350"/>
+</p>
+<p>Since the TOPMed reference panel contains many more haplotypes than the 1000 Genomes panel, it appears we are getting better imputation of SNP with very low MAF.</p>
+<p align="center">
+  <img src="/images/imputation/imputed_snps_low_maf.png" alt="Imputation at low MAF" width="350"/>
+</p>
+<p>With these encouraging results, we decided to continue the analysis and apply other commonly used variant filters before doing our genetic association tests. Here is where we saw something unexpected. When filtering out variants with an MAF&lt;0.01, TOPMed no longer yielded more imputed variants than 1000 Genomes. The final filter, variants with a sufficiently high Hardy-Weinberg equilibrium p-value (HWE &gt; 1e-6), also showed more variants from the 1000 Genomes imputation.</p>
+<p align="center">
+  <img src="/images/imputation/variants_filtered.png" alt="Filtered variants" width="400"/>
+</p>
+<p>This effect is seen across the genome, the same for variants on any chromosome.</p>
+<p align="center">
+  <img src="/images/imputation/variants_filtered_by_chr.png" alt="Filtered variants by chromosome" width="700"/>
+</p>
+<p>How could this be? It is possible that the TOPMed reference panel has enough genetic diversity to define more haplotypes at any give sequence in the genome. In this toy example, 1000 Genomes may have two haplotypes for the same genomic location that TOPMed defines three haplotypes. Some of the samples that were imputed to the 1000 Genomes rare haplotype may be imputed with greater accuracy to even rarer haplotypes in the TOPMed reference panel..</p>
+<p align="center">
+  <img src="/images/imputation/haplotypes.png" alt="Haplotypes" width="600"/>
+</p>
+<p>In this example, the 1000 Genomes imputed A/C variant has a MAF of 0.0184, which passes the variant filter cutoff of 0.01. The TOPMed imputed variants A/C and nearby A/G both have an MAF of 0.0092, which both fail the MAF cutoff. Indeed, when we look at the TOPMed imputed variants that are not passing the MAF cutoff, they have a lower MAF than the same variants imputed with 1000 Genomes.</p>
+<p>But is this bad? As a data scientist, I hate to throw away data. I want to test more variants for genetic association. Indeed, that was the hope when we sought to use TOPMed instead of 1000 Genomes; we wanted to get more imputed variants by leveraging the greater genetic diversity in the TOPMed haplotypes. In the end, however, we tested fewer variants for genomic association. But this is rigorous science! The imputed variants we used in later association studies were imputed with greater confidence and contained fewer false positives. This in turn leads to fewer false positive genetic associations and a more robust data analysis.</p>
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Search</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Search this website." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      
+    </div>
+  </footer>
+  
+
+  
+  
+  
+  
+  <script src="https://mikelaff.bio/elasticlunr.min.js"></script>
+  <script src="https://mikelaff.bio/search_index.en.js"></script><script src="https://mikelaff.bio/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
