@@ -12,8 +12,6 @@ I completed my PhD in <b>Bioinformatics and Computational Biology</b> from the U
 
 I am currently working as a <b>Senior Bioinformatics Scientist</b> at <a href="https://www.datapol.bio" target="_blank">dataPol Solutions</a>.  
 
-I am also a freelance consultant and bioinformatician. Email <a href= "mailto: info@mikelaff.bio">info@mikelaff.bio</a> to inquire about a partnership!  
-
 </center>
 
 ## Connect with Me!
